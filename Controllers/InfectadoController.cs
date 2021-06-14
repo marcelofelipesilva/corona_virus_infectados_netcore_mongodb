@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using corona_virus_infectados_netcore_mongodb.Data;
+using corona_virus_infectados_netcore_mongodb.Models;
+using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Linq;
