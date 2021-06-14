@@ -28,4 +28,4 @@ namespace corona_virus_infectados_netcore_mongodb.Data
             public string Cidade { get; set; }
         }
     }
-}
+
