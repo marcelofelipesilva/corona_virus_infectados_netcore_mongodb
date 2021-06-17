@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet run",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/corona_virus_infectados_netcore_mongodb.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet run",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/corona_virus_infectados_netcore_mongodb.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet run",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/corona_virus_infectados_netcore_mongodb.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
